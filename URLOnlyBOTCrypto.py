@@ -23,11 +23,7 @@ def get_text(url):
 
     return article.text
 
-#url = ('https://newsapi.org/v2/everything?'
-#       'q=Bitcoin&'
-#       'from=2022-02-09&'
-#       'sortBy=popularity&'
-#       'apiKey=6c56cace4bdc41aab2a4832a3ef9d3f7')
+
 
 firstpart = "https://newsapi.org/v2/everything?q=Crypto&from="
 secondpart = "&sortBy=popularity&apiKey=6c56cace4bdc41aab2a4832a3ef9d3f7"
@@ -52,15 +48,7 @@ def get(m, res=False):
         print(item['url'])
         bot.send_message(m.chat.id, item['url'])
         
-        #bot.send_message(m.chat.id, result)
-        #except:
-        #    print('Error')
-        
-# Получение сообщений от юзера
-#@bot.message_handler(content_types=["text"])
-#def handle_text(message):
-#    bot.send_message(message.chat.id, 'Вы написали: ' + message.text)
-#    bot.send_message()
+
 
     
 
