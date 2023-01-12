@@ -13,7 +13,7 @@ from pprint import pprint
 from datetime import date
 
 #фрагмент коннекта к новостям
-newsapi = NewsApiClient(api_key='6c56cace4bdc41aab2a4832a3ef9d3f7')
+newsapi = NewsApiClient(api_key='***')
 
 def get_text(url):
     rs = requests.get(url)
