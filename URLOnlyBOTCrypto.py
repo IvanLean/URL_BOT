@@ -34,7 +34,8 @@ json_response = response.text
 data = json.loads(json_response)
 #конец фрагмента
 # Создаем экземпляр бота
-bot = telebot.TeleBot('5156738496:AAEe02z02NhDCY0is9JygdO3JD4mHdRW9og')
+bot = telebot.TeleBot('')
+
 # Функция, обрабатывающая команду /start
 
 
